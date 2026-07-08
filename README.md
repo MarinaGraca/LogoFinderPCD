@@ -12,9 +12,10 @@ GUI specs:
 * left pannel to choose picture search orientation
 * right pannel to show the logo search results
 * central pannel where the selected image will appear
-* directory to search (*Pasta*)
-* image/logo to find in the selected folder (*Imagem*)
-* search button (*Procura*)
+* bottom buttons
+  * button to select directory to search (*Pasta*)
+  * button to select image/logo to find in the selected folder (*Imagem*)
+  * search button (*Procura*)
 
 Start the Server: `java Server 8080`\
 Output:
@@ -31,7 +32,7 @@ Connected to server socket: Socket[addr=localhost/127.0.0.1,port=8080,localport=
 Address: localhost/127.0.0.1
 ```
 
-Start the Worker: `java Worker localhost 8080 "Procura Simples"`
+Start the Worker: `java Worker localhost 8080 "Procura Simples"`\
 Output:
 ```
 Server running
