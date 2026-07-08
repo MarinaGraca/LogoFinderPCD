@@ -30,3 +30,11 @@ Client thread
 Connected to server socket: Socket[addr=localhost/127.0.0.1,port=8080,localport=54641]
 Address: localhost/127.0.0.1
 ```
+
+Start the Worker: `java Worker localhost 8080 "Procura Simples"`
+Output:
+```
+Server running
+Server Socket: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=8080]
+Conexao aceite na socket: Socket[addr=/127.0.0.1,port=54641,localport=8080]
+Conexao aceite na socket: Socket[addr=/127.0.0.1,port=54654,localport=8080]
