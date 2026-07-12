@@ -47,10 +47,10 @@ Conexao aceite na socket: Socket[addr=/127.0.0.1,port=54641,localport=8080]
 Conexao aceite na socket: Socket[addr=/127.0.0.1,port=54654,localport=8080]
 ```
 
-On the left pannel, choose the search orientation you want - *Procura Simples*, *Procura 90º*, or *Procura 180º* - to search for logos rotated at 0º, 90º and 180º angles.\
-Click on the *Pasta* button to choose the image folder where you want to search.\
-Click on the *Imagem* button to choose the logo.\
-Finally, click on the *Procura* button to start the search.
+1. On the left pannel, choose the search orientation you want - *Procura Simples*, *Procura 90º*, or *Procura 180º* - to search for logos rotated at 0º, 90º and 180º angles.
+2. Click on the *Pasta* button to choose the image folder where you want to search.
+3. Click on the *Imagem* button to choose the logo.
+4. Finally, click on the *Procura* button to start the search.
 When the search is over, you can select the image you want to see on the list on the right and it will appear on the center.
 
 ```
@@ -71,4 +71,6 @@ Address: localhost/127.0.0.1
 (334, 289)
 (649, 88)
 (870, 291)
+...\LogoFinderPCD\img\out\image1_2.png
+...
 ```
