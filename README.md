@@ -4,8 +4,8 @@
 
 We want to search for a sub-image (*logo*) in a set of bigger images.\
 The Client will connect to the Server and ask for it to find the *logo*.\
-The Server will ask various Workers to find this *logo* in a concurrent way.\
-(...)\
+The Server will ask various Workers to find this *logo* in a concurrent way.
+
 At the end of the search, when the user selects one of the images where the *logo* was found, the image will appear at the center of the frame with the *logo* marked in red.
 
 GUI specs:
@@ -47,6 +47,7 @@ Conexao aceite na socket: Socket[addr=/127.0.0.1,port=54641,localport=8080]
 Conexao aceite na socket: Socket[addr=/127.0.0.1,port=54654,localport=8080]
 ```
 
+Usage:
 1. On the left pannel, choose the search orientation you want - *Procura Simples*, *Procura 90º*, or *Procura 180º* - to search for logos rotated at 0º, 90º and 180º angles.
 2. Click on the *Pasta* button to choose the image folder where you want to search.
 3. Click on the *Imagem* button to choose the logo.
